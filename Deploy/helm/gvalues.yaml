@@ -4,39 +4,39 @@ inf:
   sa: ttsa
   db:
     products:
-      host: # DB HOST LIKE tailwindtradersserver-dev.database.windows.net
+      host: ttsqlservero5nrv3jcbbezi.database.windows.net
       port: "1433"
-      catalog: # DB NAME LIKE  Microsoft.Tailwind.Products-dev
-      user: # ADMIN USERNAME LIKE tailadmin
-      pwd: # ADMIN PWD
+      catalog: Products
+      user: sqladmin
+      pwd: P2ssw0rd@123
     profile:
-      host: # DB HOST LIKE tailwindtradersserver-dev.database.windows.net
+      host: ttsqlservero5nrv3jcbbezi.database.windows.net
       port: "1433"
-      catalog: # DB NAME LIKE  Microsoft.Tailwind.Profile-dev
-      user: # ADMIN USERNAME LIKE tailadmin
-      pwd: # ADMIN PWD
+      catalog: Profiles
+      user: sqladmin
+      pwd: P2ssw0rd@123
     coupons:
-      user: # COSMOS USER tailwindtraders-coupons-dev
-      pwd: # COSMOS PWD 
-      host: # COSMOS HOST LIKE tailwindtraders-coupons-dev.documents.azure.com
+      user: ttcuoponsdbo5nrv3jcbbezi
+      pwd: ZV2eoyBty5VIMHy5iKDfi0CgJiGw1D7nrxPI4PoKdkjVdsFYzJKXxMPBWd6dvTHdYAx4xljjZp3xufkKUc0MkA==
+      host: ttcuoponsdbo5nrv3jcbbezi.documents.azure.com
       port: "10255"
       dbName: Coupon
-      constr: # COSMOS CONSTR
+      constr: ttcuoponsdbo5nrv3jcbbezi:ZV2eoyBty5VIMHy5iKDfi0CgJiGw1D7nrxPI4PoKdkjVdsFYzJKXxMPBWd6dvTHdYAx4xljjZp3xufkKUc0MkA==@ttcuoponsdbo5nrv3jcbbezi.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
       collection: CouponCollection   
     popularproducts:
-      host: # DB HOST LIKEtailwindtradersserver-dev.database.windows.net
+      host: ttsqlservero5nrv3jcbbezi.database.windows.net
       port: "1433"
-      catalog: # DB NAME LIKE  Microsoft.Tailwind.PopularProduct-dev
-      user: # ADMIN USERNAME LIKE tailadmin
-      pwd: # ADMIN PWD  
+      catalog: PopularProducts
+      user: sqladmin
+      pwd: P2ssw0rd@123  
     cart:
-      host: # COMSOS HOST FOR THE CART like https://ttwebbasket-dev.documents.azure.com:443/
-      auth: # COSMOS AUTH KEY
+      host: https://ttshoppingdbo5nrv3jcbbezi.documents.azure.com:443/
+      auth: bS8elF0B4H4AfRyQJSduSEVsVm1AXHA41IjIvzMw7YyYV6bBoveucqqjUfje1I3XdSQtiRvf25qtfst3zuWg3A==
   storage:
-    productimages: #URL-OF-STORAGE/product-list
-    productdetailimages: #URL-OF-STORAGE/product-detail
-    couponimage: #URL-OF-STORAGE/coupon-list
-    profileimages: #URL-OF-STORAGE/profiles-list
+    productimages: https://ttstorageo5nrv3jcbbezi.blob.core.windows.net/product-list
+    productdetailimages: https://ttstorageo5nrv3jcbbezi.blob.core.windows.net/product-detail
+    couponimage: https://ttstorageo5nrv3jcbbezi.blob.core.windows.net/coupon-list
+    profileimages: https://ttstorageo5nrv3jcbbezi.blob.core.windows.net/profiles-list
   appinsights:
     id: ""
   ingress:

@@ -2,7 +2,7 @@ replicaCount: 1
 applicationName: tailwindtraders
 
 image:
-  repository: tailwindtradersacr.azurecr.io/mobileapigw.api
+  repository: ttacro5nrv3jcbbezi.azurecr.io/mobileapigw.api
   tag: prod
   pullPolicy: Always
 

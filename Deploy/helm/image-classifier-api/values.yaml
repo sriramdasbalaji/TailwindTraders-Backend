@@ -2,7 +2,7 @@ replicaCount: 1
 applicationName: tailwindtraders
 
 image:
-  repository: tailwindtradersacr.azurecr.io/image-classifier.api
+  repository: ttacro5nrv3jcbbezi.azurecr.io/image-classifier.api
   tag: prod
   pullPolicy: Always
 

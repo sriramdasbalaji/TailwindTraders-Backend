@@ -2,12 +2,12 @@ replicaCount: 1
 applicationName: tailwindtraders
 
 image:
-  repository:  tailwindtradersacr.azurecr.io/popular-product.api
+  repository:  ttacro5nrv3jcbbezi.azurecr.io/popular-product.api
   tag: prod
   pullPolicy: Always
 
 initImage:
-  repository:  tailwindtradersacr.azurecr.io/popular-product-seed.api
+  repository:  ttacro5nrv3jcbbezi.azurecr.io/popular-product-seed.api
   tag: prod
   pullPolicy: Always
 
